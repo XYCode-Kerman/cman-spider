@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cman-spider"
+version = "0.0.1"
+description = "Spider of CMAN"
+authors = ["XYCode Kerman <xycode-xyc@outlook.com>"]
+license = "LGPL-2.1"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+aiohttp = "^3.9.5"
+apscheduler = "^3.10.4"
+gitpython = "^3.1.43"
+rich = "^13.7.1"
+pydantic = "^2.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
